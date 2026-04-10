@@ -21,7 +21,7 @@ var style_Confinecomunale_30 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(232,60,60,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.9}),
+        stroke: new ol.style.Stroke({color: 'rgba(232,60,60,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
